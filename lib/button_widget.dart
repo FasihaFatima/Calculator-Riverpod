@@ -33,7 +33,7 @@ class ButtonWidget extends StatelessWidget {
           onLongPress: onClickedLong,
           style: ElevatedButton.styleFrom(
             backgroundColor: MyColors.background3,
-            elevation: 0,
+            elevation: 20.0,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(16),
             ),
